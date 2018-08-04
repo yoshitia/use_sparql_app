@@ -1,0 +1,8 @@
+<h1>Person#index</h1>
+<p>Find me in app/views/person/index.html.erb</p>
+<table>
+	  <tr><th>名前: </th><th>身長: </th></tr>
+	<% @idol.each do |i| %>
+		<tr><td><%= i[:name] %></td><td><%= i[:height] %></td></tr>
+	<% end %>
+</table>
